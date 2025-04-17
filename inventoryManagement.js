@@ -6,6 +6,10 @@ function logFirstProduct() {
   console.log(products[0])
 }
 
+function removeLastProduct() {
+  products.pop()
+}
+
 function addProduct(newProduct) {
   products.push(newProduct)
 }
@@ -13,6 +17,9 @@ function addProduct(newProduct) {
 function updateProductName(position,newProduct) {
   products[position] = newProduct
 }
+
+// removeLastProduct()
+// console.log(products)
 
 
 // logFirstProduct()
